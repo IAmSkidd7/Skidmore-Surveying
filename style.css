@@ -1,63 +1,7 @@
 body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
-  background-color: #9AADBF;
+  font: 400 15px/1.8 "Lato, sans-serif";
+  color: #777;
 }
 
-header {
-  width: 100;
-  height: 70px;
-  background-color: #9AADBF;
-}
-
-h1 {
-  position: absolute;
-  padding: 3px;
-  float: left;
-  margin-left: 2%;
-  margin-top: 10px;
-  font-family: 'Goldman', cursive;
-
-}
-
-span {
-  color: #0C7C59;
-}
-
-ul {
-  width: auto;
-  float: right;
-  margin-top: 8px;
-  font-family: 'Goldman', cursive;
-}
-
-li {
-  display: inline-block;
-  padding: 15px 30px;
-}
-
-a {
-  text-align: center;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1.2vw;
-}
-
-a:hover {
-  color: #4E598C;
-  transition: 0.5s;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url("SurveyingParallax.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
